@@ -61,6 +61,7 @@ Model Evaluation: Tested the model on unseen data to evaluate performance
 model_building.ipynb → Jupyter Notebook with feature selection, training, and evaluation
 Model/forecasting_co2_emmision.zip → Zipped trained model file ('.pkl' inside)
 
+
 🛠 Tools Used
 Pandas
 NumPy
