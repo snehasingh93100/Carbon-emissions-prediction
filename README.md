@@ -1,27 +1,33 @@
- 🌍 Carbon Emission Prediction – Internship Week 1Add commentMore actions
-# 🌍 Carbon Emission Prediction – (Internship Project - June 2025 Batch)
-
+# 🌍 Carbon Emission Prediction
 ## 📁 Project Description
 
-This project is part of the AI/ML Internship (June Batch – Week 1).  
-This project is part of the AI/ML Internship (June Batch – 2025).  
+This project is part of the AI/ML project  
 The goal is to explore and prepare a climate dataset (CO₂ emissions & other greenhouse gases) for future ML tasks.
 
-## ✅ Week 1 Milestone Completed
-## ✅ Week 1 Milestone Completed: Stage 1 – Data Cleaning & Preparation - (18 June,2025)
+## ✅ Milestone Completed: Stage 1 – Data Cleaning & Preparation
 
 - Used the *original Excel dataset* (Dataset.xlsx) without converting to CSV
 - Loaded different sheets directly using pandas.read_excel()
-@@ -27,8 +27,29 @@ The goal is to explore and prepare a climate dataset (CO₂ emissions & other gr
+- Performed basic data cleaning (removed nulls, unnecessary rows/columns)
+- Prepared the data for ML by exploring structure and converting into usable format
+- Saved the cleaned dataset into a new file: 'data_clean.csv'
+- No merging or CSV transformation was applied
+
+## 📁 Files Included
+
+- data_preparation.ipynb → Jupyter Notebook with data loading & cleaning steps
+- Dataset.xlsx → Original provided dataset
+- data_cleaned.csv → Cleaned dataset exported after preprocessing
+- README.md → This file
+
+## 🛠 Tools Used
+
+- Python
 - Pandas
 - Jupyter Notebook
 
-## 🚀 Ready for Week 2
 
-The dataset is now cleaned and prepared, ready for:
-- Visualization
-- Machine Learning model building (Regression, Forecasting, etc.)
-## ✅ Week 2 Milestone Completed: Stage 2 – Data Exploration & Visualization - (24 june,2025)
+## ✅Milestone Completed: Stage 2 – Data Exploration & Visualization 
 
 - *Imported Cleaned Dataset:* Used data_clean.csv generated in Stage 1.
 - *Visualized Global Trends:* Plotted relationships between CO₂ emission and country-specific indicators.
@@ -45,29 +51,4 @@ The dataset is now cleaned and prepared, ready for:
 - numpy
 - Jupyter Notebook
 
-## ✅ Week 3 Milestone Completed: Final Stage – Predictive Modeling - (1 July, 2025)
 
-- *Imported Data and Setup:* Used cleaned dataset for ML modeling  
-- *Explored Features Again:* Final feature list confirmed based on visualization insights  
-- *Defined Hypothesis:* Established emission prediction as the modeling target  
-- *Selected Target and Features:* Chose independent and dependent variables  
-- *Split Dataset:* Divided data into training and testing sets  
-- *Feature Selection:* Applied recursive feature elimination with cross-validation  
-- *Model Selection & Tuning:*
-  - Used Random Forest Regressor  
-  - Performed hyperparameter tuning using cross-validation  
-- *Model Training:* Trained with best hyperparameters  
-- *Model Evaluation:* Tested the model on unseen data to evaluate performance  
-
-## 📁 Files Included
-
-- model_building.ipynb → Jupyter Notebook with feature selection, training, and evaluation
-- Model/forecasting_co2_emmision.zip → Zipped trained model file ('.pkl' inside)
-
-
-## 🛠 Tools Used
-
-- Pandas  
-- NumPy  
-- Scikit-learn  
-- Jupyter Notebook
